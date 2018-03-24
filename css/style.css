@@ -61,7 +61,6 @@ body {
 
 .hotel-view {
   background-color: #fff;
-  background-color: orangered;
   height: 80rem;
   flex: 1; }
 
@@ -166,7 +165,7 @@ body {
   .side-nav__item:active::before {
     background-color: var(--color-primary-light); }
   .side-nav__link:link, .side-nav__link:visited {
-    color: var(--color-grey-light-1);
+    color: var(--color-grey-light-2);
     text-decoration: none;
     text-transform: uppercase;
     display: block;
@@ -186,3 +185,18 @@ body {
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem; }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
+.overview {
+  display: flex; }
+  .overview__stars {
+    margin-right: auto; }
+  .overview__icon-star, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary); }
